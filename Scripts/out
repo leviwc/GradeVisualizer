@@ -1,0 +1,255 @@
+semestre: [
+{numero: "1", materias: [
+{id: "0",codigo: "BIOE09",nome: "BIOLOGIA CELULAR E MOLECULAR APLICADO À MEDICINA",passou:GradeState.NEUTRAL,dependencias: [
+
+]},
+{id: "1",codigo: "ICSF99",nome: "HISTOLOGIA MÉDICA I",passou:GradeState.NEUTRAL,dependencias: [
+
+]},
+{id: "2",codigo: "ICSG01",nome: "ANATOMIA DE SISTEMAS I",passou:GradeState.NEUTRAL,dependencias: [
+
+]},
+{id: "3",codigo: "ICSG02",nome: "BIOQUÍMICA MÉDICA I",passou:GradeState.NEUTRAL,dependencias: [
+
+]},
+{id: "4",codigo: "MEDD78",nome: "URGÊNCIA E EMERGÊNCIA I",passou:GradeState.NEUTRAL,dependencias: [
+
+]},
+{id: "5",codigo: "MEDD79",nome: "BIOÉTICA E ÉTICA MÉDICA I",passou:GradeState.NEUTRAL,dependencias: [
+
+]},
+{id: "6",codigo: "MEDD80",nome: "MEDICINA SOCIAL E CLÍNICA",passou:GradeState.NEUTRAL,dependencias: [
+
+]}]},
+
+{numero: "2", materias: [
+{id: "0",codigo: "ICSG03",nome: "BIOFÍSICA III A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"1"} 
+]},
+{id: "1",codigo: "ICSG04",nome: "HISTOLOGIA MÉDICA II",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"} 
+]},
+{id: "2",codigo: "ICSG05",nome: "NEUROANATOMIA HUMANA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"1"}, {id:"2",numero:"1"} 
+]},
+{id: "3",codigo: "ICSG06",nome: "FISIOLOGIA MÉDICA GERAL I A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"} 
+]},
+{id: "4",codigo: "ICSG07",nome: "ANATOMIA DE SISTEMAS II",passou:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"1"} 
+]},
+{id: "5",codigo: "MEDD81",nome: "EPIDEMIOLOGIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"6",numero:"1"} 
+]},
+{id: "6",codigo: "MEDD82",nome: "PEDIATRIA I",passou:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"} 
+]},
+{id: "7",codigo: "MEDD83",nome: "BIOÉTICA E ÉTICA MÉDICA II",passou:GradeState.NEUTRAL,dependencias: [
+{id:"5",numero:"1"} 
+]},
+{id: "8",codigo: "MEDD84",nome: "FORMAÇÃO EM PESQUISA I A",passou:GradeState.NEUTRAL,dependencias: [
+
+]}]},
+
+{numero: "3", materias: [
+{id: "0",codigo: "ICSG08",nome: "HISTOLOGIA MÉDICA III",passou:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"2"}, {id:"3",numero:"2"} 
+]},
+{id: "1",codigo: "ICSG09",nome: "BIOQUÍMICA MÉDICA II A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"3",numero:"1"} 
+]},
+{id: "2",codigo: "ICSG10",nome: "FISIOLOGIA DOS ÓRGÃOS E SISTEMAS A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"2"}, {id:"3",numero:"2"} 
+]},
+{id: "3",codigo: "ICSG11",nome: "ANATOMIA DE SISTEMAS III",passou:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"2"}, {id:"4",numero:"2"} 
+]},
+{id: "4",codigo: "MEDD85",nome: "SEMIOLOGIA MÉDICA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"1"}, {id:"4",numero:"2"} 
+]},
+{id: "5",codigo: "MEDD86",nome: "MEDICINA SOCIAL I",passou:GradeState.NEUTRAL,dependencias: [
+{id:"6",numero:"1"} 
+]},
+{id: "6",codigo: "MEDD87",nome: "BIOÉTICA E ÉTICA MÉDICA III A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"7",numero:"2"} 
+]}]},
+
+{numero: "4", materias: [
+{id: "0",codigo: "ICSG12",nome: "PARASITOLOGIA HUMANA II A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"} 
+]},
+{id: "1",codigo: "ICSG13",nome: "FARMACOLOGIA I",passou:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"3",numero:"2"}, {id:"2",numero:"3"}, {id:"4",numero:"3"} 
+]},
+{id: "2",codigo: "ICSG14",nome: "MICROBIOLOGIA V A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"} 
+]},
+{id: "3",codigo: "ISCA83",nome: "POLÍTICA DE SAÚDE I",passou:GradeState.NEUTRAL,dependencias: [
+
+]},
+{id: "4",codigo: "MEDD88",nome: "MEDICINA DE FAMÍLIA E COMUNIDADE I",passou:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"4",numero:"3"} 
+]},
+{id: "5",codigo: "MEDD89",nome: "IMUNOPATOLOGIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"3",numero:"2"}, {id:"0",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"} 
+]},
+{id: "6",codigo: "MEDD90",nome: "FORMAÇÃO EM PESQUISA II-A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"8",numero:"2"} 
+]}]},
+
+{numero: "5", materias: [
+{id: "0",codigo: "ICSG15",nome: "FARMACOLOGIA II",passou:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"2"}, {id:"2",numero:"3"}, {id:"1",numero:"4"} 
+]},
+{id: "1",codigo: "ICSG16",nome: "METABOLISMO APLICADO À CLÍNICA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"2"}, {id:"1",numero:"3"}, {id:"3",numero:"3"}, {id:"4",numero:"3"} 
+]},
+{id: "2",codigo: "MEDD91",nome: "CLÍNICA MÉDICA I A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"4",numero:"3"}, {id:"4",numero:"4"} 
+]},
+{id: "3",codigo: "MEDD92",nome: "TÉCNICA OPERATÓRIA E CIRURGIA EXPERIMENTAL A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"4",numero:"3"} 
+]},
+{id: "4",codigo: "MEDD93",nome: "DIAGNÓSTICO POR IMAGEM I",passou:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"1"}, {id:"0",numero:"2"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"4",numero:"3"} 
+]},
+{id: "5",codigo: "MEDD94",nome: "PATOLOGIA HUMANA I",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"2",numero:"4"}, {id:"5",numero:"4"} 
+]},
+{id: "6",codigo: "MEDD95",nome: "URGÊNCIA E EMERGÊNCIA II",passou:GradeState.NEUTRAL,dependencias: [
+{id:"4",numero:"1"}, {id:"6",numero:"1"}, {id:"4",numero:"3"} 
+]},
+{id: "7",codigo: "MEDD96",nome: "BIOÉTICA E ÉTICA MÉDICA IV",passou:GradeState.NEUTRAL,dependencias: [
+{id:"5",numero:"1"}, {id:"7",numero:"2"}, {id:"6",numero:"3"} 
+]},
+{id: "8",codigo: "MEDD97",nome: "PROJETO DE PESQUISA I",passou:GradeState.NEUTRAL,dependencias: [
+{id:"5",numero:"2"}, {id:"8",numero:"2"}, {id:"6",numero:"4"} 
+]}]},
+
+{numero: "6", materias: [
+{id: "0",codigo: "MEDD98",nome: "CLÍNICA MÉDICA II A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"4",numero:"3"}, {id:"4",numero:"4"}, {id:"2",numero:"5"} 
+]},
+{id: "1",codigo: "MEDD99",nome: "BASES DA CIRURGIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"2"}, {id:"2",numero:"3"}, {id:"2",numero:"5"}, {id:"3",numero:"5"} 
+]},
+{id: "2",codigo: "MEDE01",nome: "MEDICINA LEGAL E PERÍCIA MÉDICA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"5"} 
+]},
+{id: "3",codigo: "MEDE02",nome: "DIAGNÓSTICO POR IMAGEM II",passou:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"5"}, {id:"4",numero:"5"} 
+]},
+{id: "4",codigo: "MEDE03",nome: "PSICOPATOLOGIA A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"2"}, {id:"4",numero:"3"}, {id:"4",numero:"4"} 
+]},
+{id: "5",codigo: "MEDE04",nome: "PATOLOGIA HUMANA II",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"2",numero:"4"}, {id:"5",numero:"4"}, {id:"5",numero:"5"} 
+]},
+{id: "6",codigo: "MEDE05",nome: "BIOÉTICA E ÉTICA MÉDICA V",passou:GradeState.NEUTRAL,dependencias: [
+{id:"7",numero:"5"} 
+]},
+{id: "7",codigo: "MEDE06",nome: "PROJETO DE PESQUISA II",passou:GradeState.NEUTRAL,dependencias: [
+{id:"6",numero:"4"}, {id:"8",numero:"5"} 
+]}]},
+
+{numero: "7", materias: [
+{id: "0",codigo: "MEDE07",nome: "PSIQUIATRIA A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"4",numero:"6"} 
+]},
+{id: "1",codigo: "MEDE08",nome: "CIRURGIA TORÁCICA E CARDIOVASCULAR",passou:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"6"} 
+]},
+{id: "2",codigo: "MEDE09",nome: "CIRURGIA DO APARELHO DIGESTÓRIO",passou:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"6"} 
+]},
+{id: "3",codigo: "MEDE10",nome: "PEDIATRIA II",passou:GradeState.NEUTRAL,dependencias: [
+{id:"6",numero:"2"}, {id:"0",numero:"6"} 
+]},
+{id: "4",codigo: "MEDE11",nome: "OBSTETRÍCIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"2"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"6"} 
+]},
+{id: "5",codigo: "MEDE12",nome: "OTORRINOLARINGOLOGIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"5",numero:"6"} 
+]},
+{id: "6",codigo: "MEDE13",nome: "PATOLOGIA HUMANA III",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"2",numero:"4"}, {id:"5",numero:"4"}, {id:"5",numero:"6"} 
+]},
+{id: "7",codigo: "MEDE14",nome: "OFTALMOLOGIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"5",numero:"6"} 
+]},
+{id: "8",codigo: "MEDE15",nome: "TRABALHO DE CONCLUSÃO DE CURSO I A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"7",numero:"6"} 
+]}]},
+
+{numero: "8", materias: [
+{id: "0",codigo: "MEDE16",nome: "CLÍNICA MÉDICA III A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"5"}, {id:"0",numero:"6"} 
+]},
+{id: "1",codigo: "MEDE17",nome: "MEDICINA DE FAMÍLIA E COMUNIDADE II",passou:GradeState.NEUTRAL,dependencias: [
+{id:"4",numero:"4"}, {id:"0",numero:"6"} 
+]},
+{id: "2",codigo: "MEDE18",nome: "ORTOPEDIA E TRAUMATOLOGIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"6",numero:"7"} 
+]},
+{id: "3",codigo: "MEDE19",nome: "GINECOLOGIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"6"}, {id:"6",numero:"6"} 
+]},
+{id: "4",codigo: "MEDE20",nome: "UROLOGIA A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"6",numero:"7"} 
+]},
+{id: "5",codigo: "MEDE21",nome: "NEUROLOGIA A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"2"}, {id:"4",numero:"3"}, {id:"0",numero:"6"} 
+]},
+{id: "6",codigo: "MEDE22",nome: "URGÊNCIA E EMERGÊNCIA III",passou:GradeState.NEUTRAL,dependencias: [
+{id:"4",numero:"1"}, {id:"0",numero:"6"}, {id:"1",numero:"7"}, {id:"3",numero:"7"} 
+]},
+{id: "7",codigo: "MEDE23",nome: "BIOÉTICA E ÉTICA MÉDICA VI",passou:GradeState.NEUTRAL,dependencias: [
+{id:"5",numero:"1"}, {id:"7",numero:"2"}, {id:"6",numero:"3"}, {id:"7",numero:"5"}, {id:"6",numero:"6"} 
+]},
+{id: "8",codigo: "MEDE24",nome: "TRABALHO DE CONCLUSÃO DE CURSO IIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"8",numero:"7"} 
+]}]},
+
+{numero: "9", materias: [
+{id: "0",codigo: "MEDE27",nome: "INTERNATO EM PEDIATRIA I",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"} 
+]},
+{id: "1",codigo: "MEDE28",nome: "INTERNATO EM CLINICA CIRÚRGICA I A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"} 
+]},
+{id: "2",codigo: "MEDE29",nome: "INTERNATO EM MEDICINA SOCIAL I A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"} 
+]}]},
+
+{numero: "10", materias: [
+{id: "0",codigo: "MEDE25",nome: "INTERNATO EM CLÍNICA MÉDICA IA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"} 
+]},
+{id: "1",codigo: "MEDE26",nome: "INTERNATO EM OBSTETRÍCIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"} 
+]},
+{id: "2",codigo: "MEDE30",nome: "INTERNATO EM URGÊNCIA E EMERGÊNCIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"} 
+]}]},
+
+{numero: "11", materias: [
+{id: "0",codigo: "MEDE31",nome: "INTERNATO EM CLÍNICA MÉDICA II A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"}, {id:"0",numero:"10"}, {id:"1",numero:"10"}, {id:"0",numero:"9"}, {id:"1",numero:"9"}, {id:"2",numero:"9"}, {id:"2",numero:"10"} 
+]},
+{id: "1",codigo: "MEDE32",nome: "INTERNATO EM GINECOLOGIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"}, {id:"0",numero:"10"}, {id:"1",numero:"10"}, {id:"0",numero:"9"}, {id:"1",numero:"9"}, {id:"2",numero:"9"}, {id:"2",numero:"10"} 
+]},
+{id: "2",codigo: "MEDE38",nome: "INTERNATO EM TERAPIA INTENSIVA-UTI",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"}, {id:"0",numero:"10"}, {id:"1",numero:"10"}, {id:"0",numero:"9"}, {id:"1",numero:"9"}, {id:"2",numero:"9"}, {id:"2",numero:"10"} 
+]}]},
+
+{numero: "12", materias: [
+{id: "0",codigo: "MEDE33",nome: "INTERNATO EM PEDIATRIA II A",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"}, {id:"0",numero:"10"}, {id:"1",numero:"10"}, {id:"0",numero:"9"}, {id:"1",numero:"9"}, {id:"2",numero:"9"}, {id:"2",numero:"10"} 
+]},
+{id: "1",codigo: "MEDE39",nome: "INTERNATO EM PSIQUIATRIA",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"}, {id:"0",numero:"10"}, {id:"1",numero:"10"}, {id:"0",numero:"9"}, {id:"1",numero:"9"}, {id:"2",numero:"9"}, {id:"2",numero:"10"} 
+]},
+{id: "2",codigo: "MEDE51",nome: "INTERNATO EM ESPECIALIDADES CIRÚRGICAS",passou:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"1"}, {id:"1",numero:"1"}, {id:"2",numero:"1"}, {id:"3",numero:"1"}, {id:"0",numero:"2"}, {id:"1",numero:"2"}, {id:"2",numero:"2"}, {id:"3",numero:"2"}, {id:"4",numero:"2"}, {id:"0",numero:"3"}, {id:"1",numero:"3"}, {id:"2",numero:"3"}, {id:"3",numero:"3"}, {id:"0",numero:"4"}, {id:"1",numero:"4"}, {id:"2",numero:"4"}, {id:"0",numero:"5"}, {id:"1",numero:"5"}, {id:"3",numero:"4"}, {id:"4",numero:"1"}, {id:"5",numero:"1"}, {id:"6",numero:"1"}, {id:"5",numero:"2"}, {id:"6",numero:"2"}, {id:"7",numero:"2"}, {id:"8",numero:"2"}, {id:"4",numero:"3"}, {id:"5",numero:"3"}, {id:"6",numero:"3"}, {id:"4",numero:"4"}, {id:"5",numero:"4"}, {id:"6",numero:"4"}, {id:"2",numero:"5"}, {id:"3",numero:"5"}, {id:"4",numero:"5"}, {id:"5",numero:"5"}, {id:"6",numero:"5"}, {id:"7",numero:"5"}, {id:"8",numero:"5"}, {id:"0",numero:"6"}, {id:"1",numero:"6"}, {id:"2",numero:"6"}, {id:"3",numero:"6"}, {id:"4",numero:"6"}, {id:"5",numero:"6"}, {id:"6",numero:"6"}, {id:"7",numero:"6"}, {id:"0",numero:"7"}, {id:"1",numero:"7"}, {id:"2",numero:"7"}, {id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"}, {id:"6",numero:"7"}, {id:"7",numero:"7"}, {id:"8",numero:"7"}, {id:"0",numero:"8"}, {id:"1",numero:"8"}, {id:"2",numero:"8"}, {id:"3",numero:"8"}, {id:"4",numero:"8"}, {id:"5",numero:"8"}, {id:"6",numero:"8"}, {id:"7",numero:"8"}, {id:"8",numero:"8"}, {id:"0",numero:"10"}, {id:"1",numero:"10"}, {id:"0",numero:"9"}, {id:"1",numero:"9"}, {id:"2",numero:"9"}, {id:"2",numero:"10"} 
+]}]}]
