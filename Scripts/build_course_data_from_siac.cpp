@@ -27,10 +27,11 @@ const ll INF = 2e18;
     1. Copie o conteúdo das materias obrigatorias do curso no siac
     2. Cole no arquivo in
     3. De dois enters em cada semestre (TODO: automatizar isso))
-    4. Rode o programa g++ -std=c++17 build_course_data_from_siac.cpp && ./a.out <in >out
+    4. Garanta que os semestres estão numerados de 1 ao ultimo, sem pulos
+    5. Rode o programa g++ -std=c++17 build_course_data_from_siac.cpp && ./a.out <in >out
     O conteudo vai ficar formatado como um vetor utilizado no componente de semestres
     Esse script não é perfeito e pode ser que não funcione para todos os cursos, ou pode precisar de pequenas alterações
-
+    nos dados de entrada
 */
 void solve() {
     string s;
