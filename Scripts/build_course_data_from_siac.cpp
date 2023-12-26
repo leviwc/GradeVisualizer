@@ -29,6 +29,8 @@ const ll INF = 2e18;
     3. De dois enters em cada semestre (TODO: automatizar isso))
     4. Rode o programa g++ -std=c++17 build_course_data_from_siac.cpp && ./a.out <in >out
     O conteudo vai ficar formatado como um vetor utilizado no componente de semestres
+    Esse script não é perfeito e pode ser que não funcione para todos os cursos, ou pode precisar de pequenas alterações
+
 */
 void solve() {
     string s;
@@ -76,7 +78,7 @@ void solve() {
             }
             m[palavras[1]] = {j, i};
             cout << "{id: \"" << j << "\",codigo: \"" << codigo << "\",nome: \""
-                 << nome << "\",passou:GradeState.NEUTRAL,dependencias: [" << endl;
+                 << nome << "\",state:GradeState.NEUTRAL,dependencias: [" << endl;
             for (int e = 0; e < dependencias.size(); e++) {
                 cout << "{id:\"" << dependencias[e].first << "\",numero:\""
                      << dependencias[e].second << "\"}"
@@ -89,7 +91,7 @@ void solve() {
         }
         /*
         {id: "0",codigo: "ENGF56",nome: "Introdução á engenharia de produção",
-      passou:0,dependencias: [
+      state:0,dependencias: [
 
       ]},
         */
