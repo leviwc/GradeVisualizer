@@ -1,5 +1,5 @@
 [package]
-name = "grade_visualizer_api"
+name = "entity"
 version = "0.1.0"
 edition = "2021"
 
