@@ -22,7 +22,7 @@ export const Home = () => {
           <ListItem key={university.id}>
             <Button
               component={Link}
-              to={`/faculdade/${university.id}`}
+              to={`/${university.id}`}
               variant="contained"
               color="primary"
             >

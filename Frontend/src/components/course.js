@@ -4,17 +4,8 @@ import "./../App.css";
 import { GradeState } from "./materia";
 import { MateriaStatusLegend } from "./materiaLegend";
 import { useParams } from "react-router-dom";
-import { allUniversitiesMap } from "../data/allUniversities";
 
-const Course = () => {
-  const { universityId, courseId } = useParams();
-  const initialCourse = allUniversitiesMap
-    .get(universityId)
-    .coursesMap.get(courseId).data.semestre;
-
-  const [semestres, setSemestres] = useState(initialCourse);
-  console.log(semestres);
-
+const Course = ({ semestres, setSemestres, universityId, courseId }) => {
   useEffect(() => {
     // You can fetch initial data or perform other side effects here
     // For example, fetching data from an API

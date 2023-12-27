@@ -1,16 +1,15 @@
 mod grade_state;
 use std::env;
 
-use axum::{http::Method, routing::get, Router};
+use axum::{http::Method, routing::get, Router, };
 use migration::{
     sea_orm::{Database, DatabaseConnection},
     Migrator, MigratorTrait,
 };
 use tower_http::cors::{Any, CorsLayer};
+use http::header::CONTENT_TYPE;
 use tracing::{event, Level};
-
 use crate::grade_state::{get_grade_state, post_grade_state};
-
 #[tokio::main]
 pub async fn main() -> anyhow::Result<()> {
     dotenvy::dotenv().ok();
@@ -43,12 +42,13 @@ pub async fn main() -> anyhow::Result<()> {
 
     let cors = CorsLayer::new()
         .allow_methods([Method::GET, Method::POST])
-        .allow_origin(Any);
+        .allow_origin(Any)
+        .allow_headers([CONTENT_TYPE]);
 
     let app = Router::new()
         .route("/gradeStates", get(get_grade_state).post(post_grade_state))
-        .layer(cors)
-        .with_state(state);
+        .with_state(state)
+        .layer(cors);
 
     let server_url = format!("{host}:{port}");
 

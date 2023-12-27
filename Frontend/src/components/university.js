@@ -26,7 +26,7 @@ export const University = () => {
           <ListItem key={course.id}>
             <Button
               component={Link}
-              to={`/faculdade/${universityId}/curso/${course.id}`}
+              to={`/${universityId}/${course.id}`}
               variant="contained"
               color="primary"
             >

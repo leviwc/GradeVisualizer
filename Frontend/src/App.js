@@ -5,6 +5,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/layout";
 import Home from "./components/home";
 import { University } from "./components/university";
+import CourseWithPassword from "./components/courseWithPassword";
+import { allUniversitiesMap } from "./data/allUniversities";
+import CoursePage from "./components/coursePage";
 
 class App extends Component {
   render() {
@@ -20,12 +23,16 @@ class App extends Component {
             element: <Home />,
           },
           {
-            path: "faculdade/:universityId",
+            path: "/:universityId",
             element: <University />,
           },
           {
-            path: "faculdade/:universityId/curso/:courseId",
-            element: <Course />,
+            path: "/:universityId/:courseId",
+            element: <CoursePage />,
+          },
+          {
+            path: "/:universityId/:courseId/:password",
+            element: <CourseWithPassword />,
           },
         ],
       },
