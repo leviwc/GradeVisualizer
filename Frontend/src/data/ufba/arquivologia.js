@@ -211,7 +211,7 @@ export const arquivologia = {
         {
           id: "0",
           codigo: "ICIB02",
-          nome: "TRABALHO DE CONCLUSÃO DE CURSO II AllMaterias",
+          nome: "TRABALHO DE CONCLUSÃO DE CURSO II",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },

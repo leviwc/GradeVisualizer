@@ -196,7 +196,7 @@ export const comunicacao_producao = {
         {
           id: "0",
           codigo: "COMB55",
-          nome: "TCC III AllMaterias",
+          nome: "TCC III",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },

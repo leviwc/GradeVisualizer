@@ -114,218 +114,223 @@ export const arquitetura_noturno = {
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
+      ],
+    },
+
+    {
+      numero: "4",
+      materias: [
         {
-          id: "4",
-          codigo: "Sem.",
+          id: "0",
+          codigo: "",
           nome: "",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
+      ],
+    },
+
+    {
+      numero: "5",
+      materias: [
         {
-          id: "5",
+          id: "0",
           codigo: "ARQB95",
           nome: "TECNOLOGIAS DIGITAIS APLICADAS 2",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "6",
+          id: "1",
           codigo: "ARQC02",
           nome: "HISTÓRIA TEORIA CRISTICA DA ARQUITETURA CIDADE E ARTES II",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "7",
+          id: "2",
           codigo: "ARQC06",
           nome: "CONFORTO TÉRMICO LUMINOSO E ACÚSTICO 1",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "8",
+          id: "3",
           codigo: "ARQC14",
           nome: "ATELIÊ DE FUNDAMENTAÇÃO DE URBANISMO",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
+      ],
+    },
+
+    {
+      numero: "6",
+      materias: [
         {
-          id: "9",
-          codigo: "Sem.",
-          nome: "",
-          state: GradeState.NEUTRAL,
-          dependencias: [],
-        },
-        {
-          id: "10",
+          id: "0",
           codigo: "ARQA49",
           nome: "CONSTRUÇÕES II",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "11",
+          id: "1",
           codigo: "ARQB96",
           nome: "SISTEMAS ESTRUTURAIS EM CONCRETO",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "12",
+          id: "2",
           codigo: "ARQC10",
           nome: "ATELIÊ DE FUNDAMENTAÇÃO DE PLANEJAMENTO URBANO E REGIONAL",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "13",
+          id: "3",
           codigo: "ARQC22",
           nome: "INSTALAÇÕES PREDIAIS ELÉTRICAS",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
+      ],
+    },
+
+    {
+      numero: "7",
+      materias: [
         {
-          id: "14",
-          codigo: "Sem.",
-          nome: "",
-          state: GradeState.NEUTRAL,
-          dependencias: [],
-        },
-        {
-          id: "15",
+          id: "0",
           codigo: "ARQB97",
           nome: "SISTEMAS ESTRUTURAIS EM MADEIRA",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "16",
+          id: "1",
           codigo: "ARQC03",
           nome: "HISTÓRIA TEORIA E CRÍTICA DA ARQUITETURA CIDADE E ARTES III",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "17",
+          id: "2",
           codigo: "ARQC07",
           nome: "CONFORTO TÉRMICO LUMINOSO E ACÚSTICO 2",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "18",
+          id: "3",
           codigo: "ARQC11",
           nome: "ATELIÊ INTEGRADO DE ARQUITETURA E URBANISMO DE INTERESSE",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
+      ],
+    },
+
+    {
+      numero: "8",
+      materias: [
         {
-          id: "19",
-          codigo: "Sem.",
-          nome: "",
-          state: GradeState.NEUTRAL,
-          dependencias: [],
-        },
-        {
-          id: "20",
+          id: "0",
           codigo: "ARQB98",
           nome: "SISTEMAS ESTRUTURAIS EM AÇO",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "21",
+          id: "1",
           codigo: "ARQC21",
           nome: "TÉCNICAS RETROSPECTIVAS",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "22",
+          id: "2",
           codigo: "ARQC23",
           nome: "INSTALAÇÕES PREDIAIS HIDROSSANITÁRIAS",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
+      ],
+    },
+
+    {
+      numero: "9",
+      materias: [
         {
-          id: "23",
-          codigo: "Sem.",
-          nome: "",
-          state: GradeState.NEUTRAL,
-          dependencias: [],
-        },
-        {
-          id: "24",
+          id: "0",
           codigo: "ARQC04",
           nome: "HISTÓRIA TEORIA E CRÍTICA DA ARQUITETURA CIDADE E ARTES IV",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "25",
+          id: "1",
           codigo: "ARQC12",
           nome: "ATELIÊ INTEGRADO BIOCLIMÁTICO E DE BAIXO IMPACTO AMBIENTAL",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
+      ],
+    },
+
+    {
+      numero: "10",
+      materias: [
         {
-          id: "26",
-          codigo: "Sem.",
-          nome: "",
-          state: GradeState.NEUTRAL,
-          dependencias: [],
-        },
-        {
-          id: "27",
+          id: "0",
           codigo: "ARQB93",
           nome: "LEGISLAÇÃO E ÉTICA",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "28",
+          id: "1",
           codigo: "ARQC20",
           nome: "ORGANIZAÇÃO DO TRABALHO",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "29",
+          id: "2",
           codigo: "ARQC25",
           nome: "ESTÁGIO OBRIGATÓRIO",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
+      ],
+    },
+
+    {
+      numero: "11",
+      materias: [
         {
-          id: "30",
-          codigo: "Sem.",
-          nome: "",
-          state: GradeState.NEUTRAL,
-          dependencias: [],
-        },
-        {
-          id: "31",
+          id: "0",
           codigo: "ARQC26",
           nome: "TRABALHO FINAL DE GRADUAÇÃO 1",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
         {
-          id: "32",
+          id: "1",
           codigo: "ARQD29",
           nome: "ATELIÊ INTEGRADO DE PRESERVAÇÃO DO PATRIMÔNIO CULTURAL",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
+      ],
+    },
+
+    {
+      numero: "12",
+      materias: [
         {
-          id: "33",
-          codigo: "Sem.",
-          nome: "",
-          state: GradeState.NEUTRAL,
-          dependencias: [],
-        },
-        {
-          id: "34",
+          id: "0",
           codigo: "ARQC27",
           nome: "TRABALHO FINAL DE GRADUAÇÃO 2",
           state: GradeState.NEUTRAL,

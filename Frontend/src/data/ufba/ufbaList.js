@@ -109,7 +109,7 @@ import { zootecnia } from "./zootecnia";
 const ufbaCourses = [
   new CourseType("administracao", "Administração", administracao),
   new CourseType(
-    "administracao-publica",
+    "administracao_publica",
     "Administração Pública",
     administracao_publica
   ),
@@ -119,18 +119,17 @@ const ufbaCourses = [
     administracao_publica_e_gestao
   ),
   new CourseType(
-    "arquitetura-noturno",
+    "arquitetura_noturno",
     "Arquitetura e Urbanismo - Noturno",
     arquitetura_noturno
   ),
   new CourseType("arquitetura", "Arquitetura e Urbanismo", arquitetura),
   new CourseType(
-    "arquivologia-noturno",
+    "arquivologia_noturno",
     "Arquivologia - Noturno",
     arquivologia_noturno
   ),
   new CourseType("arquivologia", "Arquivologia", arquivologia),
-  // new CourseType("artes_cenicas", "Artes Cênicas", artes_cenicas),
   new CourseType(
     "artes_cenicas_direcao",
     "Artes Cênicas Direção",

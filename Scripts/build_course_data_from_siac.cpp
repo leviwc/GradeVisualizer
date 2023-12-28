@@ -26,7 +26,6 @@ const ll INF = 2e18;
     Para rodar:
     1. Copie o conteúdo das materias obrigatorias do curso no siac
     2. Cole no arquivo in
-    3. De dois enters em cada semestre (TODO: automatizar isso))
     4. Garanta que os semestres estão numerados de 1 ao ultimo, sem pulos
     5. Rode o programa g++ -std=c++17 build_course_data_from_siac.cpp && ./a.out <in >../Frontend/src/data/ufba/nomedocurso.js
     O conteudo vai ficar formatado como um vetor utilizado no componente de semestres
