@@ -1,6 +1,5 @@
 import { GradeState } from "../../components/materia";
-
-export const compScience = {
+export const ciencias_da_computacao = {
   semestre: [
     {
       numero: "1",

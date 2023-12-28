@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Semestre from "./semestre";
 import "./../App.css";
 import { GradeState } from "./materia";
 import { MateriaStatusLegend } from "./materiaLegend";
-import { useParams } from "react-router-dom";
 
 const Course = ({ semestres, setSemestres, universityId, courseId }) => {
   useEffect(() => {

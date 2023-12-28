@@ -1,8 +1,5 @@
 import { GradeState } from "../../components/materia";
-
-class Course {}
-
-export const medicine = {
+export const medicina = {
   semestre: [
     {
       numero: "1",

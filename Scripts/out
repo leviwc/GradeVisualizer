@@ -1,129 +1,158 @@
 semestre: [
 {numero: "1", materias: [
-{id: "0",codigo: "MATA02",nome: "CÁLCULO A",state:GradeState.NEUTRAL,dependencias: [
+{id: "0",codigo: "ARQ013",nome: "DESCRITIVA I A",state:GradeState.NEUTRAL,dependencias: [
 
 ]},
-{id: "1",codigo: "MATA37",nome: "INTRODUÇÃO À LÓGICA DE PROGRAMAÇÃO",state:GradeState.NEUTRAL,dependencias: [
+{id: "1",codigo: "ENG033",nome: "INTRODUÇÃO À ENGENHARIA MECANICA",state:GradeState.NEUTRAL,dependencias: [
 
 ]},
-{id: "2",codigo: "MATA39",nome: "SEMINÁRIOS DE INTRODUÇÃO AO CURSO",state:GradeState.NEUTRAL,dependencias: [
+{id: "2",codigo: "MATA01",nome: "GEOMETRIA ANALÍTICA",state:GradeState.NEUTRAL,dependencias: [
 
 ]},
-{id: "3",codigo: "MATA42",nome: "MATEMÁTICA DISCRETA I",state:GradeState.NEUTRAL,dependencias: [
+{id: "3",codigo: "MATA02",nome: "CÁLCULO A",state:GradeState.NEUTRAL,dependencias: [
 
 ]},
-{id: "4",codigo: "MATA68",nome: "COMPUTADOR ÉTICA E SOCIEDADE",state:GradeState.NEUTRAL,dependencias: [
+{id: "4",codigo: "QUI029",nome: "QUIMICA GERAL",state:GradeState.NEUTRAL,dependencias: [
 
 ]}]},
 
 {numero: "2", materias: [
-{id: "0",codigo: "ADME99",nome: "ECONOMIA DA INOVAÇÃO",state:GradeState.NEUTRAL,dependencias: [
+{id: "0",codigo: "ARQ011",nome: "DESENHO TECNICO I",state:GradeState.NEUTRAL,dependencias: [
 
 ]},
-{id: "1",codigo: "MATC73",nome: "INTRODUÇÃO À LÓGICA MATEMÁTICA",state:GradeState.NEUTRAL,dependencias: [
-{id:"3",numero:"1"} 
-]},
-{id: "2",codigo: "MATC90",nome: "CIRCUITOS DIGITAIS E ARQUITETURA DE COMPUTADORES",state:GradeState.NEUTRAL,dependencias: [
+{id: "1",codigo: "FIS121",nome: "FISICA GERAL E EXPERIMENTAL I-E",state:GradeState.NEUTRAL,dependencias: [
 
 ]},
-{id: "3",codigo: "MATC92",nome: "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO",state:GradeState.NEUTRAL,dependencias: [
-
+{id: "2",codigo: "MATA03",nome: "CÁLCULO B",state:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"1"}, {id:"3",numero:"1"} 
 ]},
-{id: "4",codigo: "MATD04",nome: "ESTRUTURAS DE DADOS",state:GradeState.NEUTRAL,dependencias: [
-{id:"1",numero:"1"}, {id:"3",numero:"1"} 
+{id: "3",codigo: "MATA07",nome: "ÁLGEBRA LINEAR A",state:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"1"} 
 ]}]},
 
 {numero: "3", materias: [
-{id: "0",codigo: "ADM001",nome: "INTRODUCÃO À ADMINISTRACAO",state:GradeState.NEUTRAL,dependencias: [
-
+{id: "0",codigo: "ENG041",nome: "MATERIAIS DE CONSTRUCAO MECANICA I",state:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"2"}, {id:"4",numero:"1"} 
 ]},
-{id: "1",codigo: "MATA07",nome: "ÁLGEBRA LINEAR A",state:GradeState.NEUTRAL,dependencias: [
-
+{id: "1",codigo: "ENG207",nome: "METROLOGIA INDUSTRIAL",state:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"2"} 
 ]},
-{id: "2",codigo: "MATA55",nome: "PROGRAMAÇÃO ORIENTADA A OBJETOS",state:GradeState.NEUTRAL,dependencias: [
-{id:"4",numero:"2"} 
+{id: "2",codigo: "FIS122",nome: "FISICA GERAL E EXPERIMENTAL II-E",state:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"2"}, {id:"2",numero:"1"}, {id:"3",numero:"1"} 
 ]},
-{id: "3",codigo: "MATA58",nome: "SISTEMAS OPERACIONAIS",state:GradeState.NEUTRAL,dependencias: [
+{id: "3",codigo: "MAT045",nome: "PROCESSAMENTO DE DADOS",state:GradeState.NEUTRAL,dependencias: [
 {id:"2",numero:"2"} 
 ]},
-{id: "4",codigo: "MATC94",nome: "INTRODUÇÃO AS LINGUAGENS FORMAIS E TEORIA DA COMPUTAÇÃO",state:GradeState.NEUTRAL,dependencias: [
-{id:"3",numero:"1"} 
+{id: "4",codigo: "MATA04",nome: "CÁLCULO C",state:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"2"} 
 ]}]},
 
 {numero: "4", materias: [
-{id: "0",codigo: "LETA09",nome: "OFICINA DE LEITURA E PRODUÇÃO DE TEXTOS",state:GradeState.NEUTRAL,dependencias: [
-
+{id: "0",codigo: "ENG001",nome: "MECANICA GERAL I",state:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"2"}, {id:"2",numero:"2"} 
 ]},
-{id: "1",codigo: "MAT236",nome: "MÉTODOS ESTATÍSTICOS",state:GradeState.NEUTRAL,dependencias: [
-{id:"0",numero:"1"}, {id:"1",numero:"3"} 
+{id: "1",codigo: "ENG042",nome: "MATERIAIS DE CONSTRUCAO MECANICA II",state:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"3"} 
 ]},
-{id: "2",codigo: "MATA59",nome: "REDES DE COMPUTADORES I",state:GradeState.NEUTRAL,dependencias: [
-{id:"2",numero:"2"} 
+{id: "2",codigo: "ENG314",nome: "PROCESSOS DE FABRICACAO I",state:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"3"} 
 ]},
-{id: "3",codigo: "MATA62",nome: "ENGENHARIA DE SOFTWARE I",state:GradeState.NEUTRAL,dependencias: [
-{id:"2",numero:"3"} 
+{id: "3",codigo: "ENG370",nome: "FENÔMENOS DE TRANSPORTES I",state:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"3"}, {id:"4",numero:"3"} 
 ]},
-{id: "4",codigo: "MATC82",nome: "SISTEMAS WEB",state:GradeState.NEUTRAL,dependencias: [
-{id:"3",numero:"3"}, {id:"3",numero:"2"} 
+{id: "4",codigo: "FIS123",nome: "FÍSICA GERAL E EXPERIMENTAL III-E",state:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"3"}, {id:"2",numero:"2"} 
+]},
+{id: "5",codigo: "MAT174",nome: "CÁLCULO NUMÉRICO I",state:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"3"}, {id:"4",numero:"3"}, {id:"3",numero:"2"} 
 ]}]},
 
 {numero: "5", materias: [
-{id: "0",codigo: "ADM211",nome: "MÉTODOS QUANTITATIVOS APLICADOS À ADMINISTRAÇÃO",state:GradeState.NEUTRAL,dependencias: [
-{id:"0",numero:"3"}, {id:"1",numero:"4"} 
+{id: "0",codigo: "ENG002",nome: "MECANICA GERAL II",state:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"4"} 
 ]},
-{id: "1",codigo: "MATA56",nome: "PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO",state:GradeState.NEUTRAL,dependencias: [
-{id:"2",numero:"3"}, {id:"4",numero:"2"} 
+{id: "1",codigo: "ENG285",nome: "RESISTENCIA DOS MATERIAIS I A",state:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"4"} 
 ]},
-{id: "2",codigo: "MATA60",nome: "BANCO DE DADOS",state:GradeState.NEUTRAL,dependencias: [
-{id:"4",numero:"2"} 
+{id: "2",codigo: "ENG315",nome: "PROCESSOS DE FABRICACAO II",state:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"4"} 
 ]},
-{id: "3",codigo: "MATA63",nome: "ENGENHARIA DE SOFTWARE II",state:GradeState.NEUTRAL,dependencias: [
-{id:"3",numero:"4"} 
+{id: "3",codigo: "FIS124",nome: "FÍSICA GERAL E EXPERIMENTAL IV-E",state:GradeState.NEUTRAL,dependencias: [
+{id:"4",numero:"4"} 
 ]},
-{id: "4",codigo: "MATC84",nome: "LABORATÓRIO DE PROGRAMAÇÃO WEB",state:GradeState.NEUTRAL,dependencias: [
-{id:"2",numero:"3"} 
+{id: "4",codigo: "MAT236",nome: "MÉTODOS ESTATÍSTICOS",state:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"2"} 
 ]}]},
 
 {numero: "6", materias: [
-{id: "0",codigo: "ADMF01",nome: "SISTEMAS DE APOIO À DECISÃO",state:GradeState.NEUTRAL,dependencias: [
-{id:"0",numero:"5"} 
+{id: "0",codigo: "ENG003",nome: "ELETRICIDADE",state:GradeState.NEUTRAL,dependencias: [
+{id:"4",numero:"4"} 
 ]},
-{id: "1",codigo: "MAT220",nome: "EMPREENDEDORES EM INFORMATICA",state:GradeState.NEUTRAL,dependencias: [
-
+{id: "1",codigo: "ENG110",nome: "RESISTENCIA DOS MATERIAIS III",state:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"5"} 
 ]},
-{id: "2",codigo: "MATA76",nome: "LINGUAGENS PARA APLICAÇÃO COMERCIAL",state:GradeState.NEUTRAL,dependencias: [
-{id:"1",numero:"1"} 
+{id: "2",codigo: "ENG309",nome: "FENOMENOS DE TRANSPORTE III",state:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"4"} 
 ]},
-{id: "3",codigo: "MATB09",nome: "LABORATÓRIO DE BANCO DE DADOS",state:GradeState.NEUTRAL,dependencias: [
-{id:"2",numero:"5"} 
+{id: "3",codigo: "ENG323",nome: "TERMODINÂMICA APLICADA I",state:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"5"}, {id:"2",numero:"3"}, {id:"5",numero:"4"} 
 ]},
-{id: "4",codigo: "MATC89",nome: "APLICAÇÕES PARA DISPOSITIVOS MÓVEIS",state:GradeState.NEUTRAL,dependencias: [
-{id:"2",numero:"3"}, {id:"2",numero:"4"} 
+{id: "4",codigo: "ENG441",nome: "FADIGA",state:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"4"}, {id:"1",numero:"5"} 
 ]}]},
 
 {numero: "7", materias: [
-{id: "0",codigo: "MATA64",nome: "INTELIGÊNCIA ARTIFICIAL",state:GradeState.NEUTRAL,dependencias: [
-{id:"1",numero:"2"}, {id:"4",numero:"2"} 
+{id: "0",codigo: "ECOB40",nome: "INTRODUÇÃO À ECONOMIA I",state:GradeState.NEUTRAL,dependencias: [
+{id:"4",numero:"5"} 
 ]},
-{id: "1",codigo: "MATB02",nome: "QUALIDADE DE SOFTWARE",state:GradeState.NEUTRAL,dependencias: [
-{id:"3",numero:"5"} 
+{id: "1",codigo: "ENG269",nome: "CIÊNCIAS DO AMBIENTE",state:GradeState.NEUTRAL,dependencias: [
+
 ]},
-{id: "2",codigo: "MATB19",nome: "SISTEMAS MULTIMÍDIA",state:GradeState.NEUTRAL,dependencias: [
-{id:"2",numero:"3"} 
+{id: "2",codigo: "ENG324",nome: "TERMODINÂMICA APLICADA II",state:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"6"} 
 ]},
-{id: "3",codigo: "MATC72",nome: "INTERAÇÃO HUMANO-COMPUTADOR",state:GradeState.NEUTRAL,dependencias: [
-{id:"3",numero:"4"} 
+{id: "3",codigo: "ENG443",nome: "CONTROLE DE VIBRAÇÕES",state:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"6"}, {id:"4",numero:"6"} 
 ]},
-{id: "4",codigo: "MATC99",nome: "SEGURANÇA E AUDITORIA DE SISTEMAS DE INFORMAÇÃO",state:GradeState.NEUTRAL,dependencias: [
-{id:"0",numero:"6"}, {id:"1",numero:"3"} 
+{id: "4",codigo: "ENG444",nome: "ELEMENTOS DE MÁQUINAS I",state:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"6"}, {id:"4",numero:"6"} 
+]},
+{id: "5",codigo: "ENG445",nome: "ELEMENTOS DE MÁQUINAS II",state:GradeState.NEUTRAL,dependencias: [
+{id:"1",numero:"6"}, {id:"4",numero:"6"} 
 ]}]},
 
 {numero: "8", materias: [
-{id: "0",codigo: "MATC97",nome: "TCC BACHARELADO SISTEMAS DE INFORMAÇÃO I",state:GradeState.NEUTRAL,dependencias: [
-{id:"0",numero:"4"} 
+{id: "0",codigo: "ADM012",nome: "ADMINISTRACAO",state:GradeState.NEUTRAL,dependencias: [
+
+]},
+{id: "1",codigo: "DIR175",nome: "LEGISLAÇÃO SOCIAL",state:GradeState.NEUTRAL,dependencias: [
+
+]},
+{id: "2",codigo: "ENG312",nome: "PROJETOS MECANICOS I",state:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"2"}, {id:"0",numero:"1"}, {id:"2",numero:"5"} 
+]},
+{id: "3",codigo: "ENG318",nome: "SISTEMAS FLUIDOMECANICOS",state:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"6"}, {id:"3",numero:"4"} 
+]},
+{id: "4",codigo: "ENG319",nome: "SISTEMAS TERMICOS",state:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"6"}, {id:"2",numero:"7"} 
+]},
+{id: "5",codigo: "ENG320",nome: "TRANSPORTE MECANICO",state:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"7"}, {id:"4",numero:"7"}, {id:"5",numero:"7"} 
 ]}]},
 
 {numero: "9", materias: [
-{id: "0",codigo: "MATC98",nome: "TCC BACHARELADO SISTEMAS DE INFORMAÇÃO II",state:GradeState.NEUTRAL,dependencias: [
-{id:"0",numero:"8"} 
+{id: "0",codigo: "ENG220",nome: "MAQUINAS OPERATRIZES",state:GradeState.NEUTRAL,dependencias: [
+{id:"2",numero:"5"}, {id:"4",numero:"7"}, {id:"5",numero:"7"} 
+]},
+{id: "1",codigo: "ENG442",nome: "MECANISMOS",state:GradeState.NEUTRAL,dependencias: [
+{id:"0",numero:"3"}, {id:"1",numero:"5"}, {id:"3",numero:"6"} 
+]}]},
+
+{numero: "10", materias: [
+{id: "0",codigo: "ENG034",nome: "TRABALHO DE CONCLUSAO DE CURSO Todas as demais disciplinas do curso exceto:",state:GradeState.NEUTRAL,dependencias: [
+
+]},
+{id: "1",codigo: "ENG374",nome: "ESTÁGIO SUPERVISIONADO CURRICULAR",state:GradeState.NEUTRAL,dependencias: [
+{id:"3",numero:"8"}, {id:"4",numero:"6"}, {id:"1",numero:"9"} 
 ]}]}]

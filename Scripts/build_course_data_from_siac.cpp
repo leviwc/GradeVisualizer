@@ -28,26 +28,42 @@ const ll INF = 2e18;
     2. Cole no arquivo in
     3. De dois enters em cada semestre (TODO: automatizar isso))
     4. Garanta que os semestres estão numerados de 1 ao ultimo, sem pulos
-    5. Rode o programa g++ -std=c++17 build_course_data_from_siac.cpp && ./a.out <in >out
+    5. Rode o programa g++ -std=c++17 build_course_data_from_siac.cpp && ./a.out <in >../Frontend/src/data/ufba/nomedocurso.js
     O conteudo vai ficar formatado como um vetor utilizado no componente de semestres
     Esse script não é perfeito e pode ser que não funcione para todos os cursos, ou pode precisar de pequenas alterações
     nos dados de entrada
 */
-void solve() {
+void solve(string entireString) {
     string s;
-    cout << "semestre: [" << endl;
     int i = 0;
-    getline(cin, s);
     map<string, pair<int, int> > m;
     m["--"] = {-1, -1};
-    while(getline(cin, s)) {
+    int posIns = 0;
+    s = "";
+    while(entireString[posIns] != '\n') {
+        s+=entireString[posIns];
+        posIns++;
+    }
+    posIns++;
+    cout << "import { GradeState } from \"../../components/materia\"; export const engMec = {" << endl;
+    cout << "semestre: [" << endl;
+    while(posIns<entireString.size()) {
         i++;
         if (i != 1) cout<< "," <<endl<<endl;
         cout << "{numero: \"" << i << "\", materias: [" << endl;
         int j = 0;
         int auxxx = 0;
-        while (getline(cin, s) and (s[0] != i + 1 + '0' and
-                                    (i < 9 or s[1] != (i + 1) % 10 + '0'))) {
+        while (posIns<entireString.size()) {
+            s = "";
+            while(entireString[posIns] != '\n') {
+                s+=entireString[posIns];
+                posIns++;
+            }
+            posIns++;
+             if (!(s[0] != i + 1 + '0' and
+                (i < 9 or s[1] != (i + 1) % 10 + '0'))) {
+                    break;
+                }
             if (auxxx != 0) {
                 cout << "," << endl;
             }
@@ -98,9 +114,22 @@ void solve() {
         */
         cout << "]}";
     }
-    cout << "]" << endl;
+    cout << "]};" << endl;
 }
 
 signed main() {
-    solve();
+    string s = "", aux;
+    while(
+    getline(cin, aux)) {
+        s+=aux + '\n';
+    }
+    string finalS =  "";
+    for (int i = 4; i < s.size(); i++) {
+        finalS += s[i];
+        if (s[i] == '.' && s[i-1] == 'm' && s[i-2] == 'e' && s[i-3] == 'S') {
+            finalS += '\n';
+        }
+    }
+
+    solve(finalS);
 }

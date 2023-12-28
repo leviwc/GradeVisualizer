@@ -1,6 +1,5 @@
 import { GradeState } from "../../components/materia";
-
-export const sistemasInfo = {
+export const sistemas_de_informacao = {
   semestre: [
     {
       numero: "1",
@@ -310,31 +309,33 @@ export const sistemasInfo = {
             { id: "1", numero: "3" },
           ],
         },
-      ],
-    },
-
-    {
-      numero: "8",
-      materias: [
         {
-          id: "0",
+          id: "5",
+          codigo: "Sem.",
+          nome: "",
+          state: GradeState.NEUTRAL,
+          dependencias: [],
+        },
+        {
+          id: "6",
           codigo: "MATC97",
           nome: "TCC BACHARELADO SISTEMAS DE INFORMAÇÃO I",
           state: GradeState.NEUTRAL,
           dependencias: [{ id: "0", numero: "4" }],
         },
-      ],
-    },
-
-    {
-      numero: "9",
-      materias: [
         {
-          id: "0",
+          id: "7",
+          codigo: "Sem.",
+          nome: "",
+          state: GradeState.NEUTRAL,
+          dependencias: [],
+        },
+        {
+          id: "8",
           codigo: "MATC98",
           nome: "TCC BACHARELADO SISTEMAS DE INFORMAÇÃO II",
           state: GradeState.NEUTRAL,
-          dependencias: [{ id: "0", numero: "8" }],
+          dependencias: [{ id: "6", numero: "7" }],
         },
       ],
     },

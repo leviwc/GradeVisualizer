@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./../App.css";
-import { GradeState } from "./materia";
 import { useParams } from "react-router-dom";
 import { allUniversitiesMap } from "../data/allUniversities";
 import Course from "./course";
@@ -67,16 +66,12 @@ const CourseWithPassword = () => {
         grade_states: dataObject,
       };
 
-      const response = await axios.post(
-        "http://0.0.0.0:8080/gradeStates",
-        body,
-        {
-          headers: {
-            "Content-Type": "application/json",
-            // Add other headers as needed
-          },
-        }
-      );
+      await axios.post("http://0.0.0.0:8080/gradeStates", body, {
+        headers: {
+          "Content-Type": "application/json",
+          // Add other headers as needed
+        },
+      });
     } catch (error) {
       console.error("Error making POST request:", error);
     }

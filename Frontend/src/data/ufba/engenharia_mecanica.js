@@ -1,6 +1,5 @@
 import { GradeState } from "../../components/materia";
-
-export const engMec = {
+export const engenharia_mecanica = {
   semestre: [
     {
       numero: "1",
@@ -431,7 +430,7 @@ export const engMec = {
         {
           id: "0",
           codigo: "ENG034",
-          nome: "TRABALHO DE CONCLUSAO DE CURSO Todas as demais disciplinas do curso exceto:",
+          nome: "TRABALHO DE CONCLUSAO DE CURSO",
           state: GradeState.NEUTRAL,
           dependencias: [],
         },
