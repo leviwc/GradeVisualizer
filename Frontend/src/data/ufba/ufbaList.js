@@ -107,21 +107,25 @@ import { transporte_terrestre } from "./transporte_terrestre";
 import { zootecnia } from "./zootecnia";
 
 const ufbaCourses = [
-  new CourseType("adm", "Administração", administracao),
-  new CourseType("adm-publica", "Administração Pública", administracao_publica),
+  new CourseType("administracao", "Administração", administracao),
   new CourseType(
-    "adm-publica-e-gestao",
+    "administracao-publica",
+    "Administração Pública",
+    administracao_publica
+  ),
+  new CourseType(
+    "administracao-publica-e-gestao",
     "Administração Pública e Gestão",
     administracao_publica_e_gestao
   ),
   new CourseType(
-    "arquitetura-not",
+    "arquitetura-noturno",
     "Arquitetura e Urbanismo - Noturno",
     arquitetura_noturno
   ),
   new CourseType("arquitetura", "Arquitetura e Urbanismo", arquitetura),
   new CourseType(
-    "arquivologia-not",
+    "arquivologia-noturno",
     "Arquivologia - Noturno",
     arquivologia_noturno
   ),
