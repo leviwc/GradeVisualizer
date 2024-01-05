@@ -5,10 +5,10 @@ export const MateriaStatusLegend = () => {
   return (
     <div className="linha">
       <div className="legenda">
-        <div className="materia liberada">Liberada</div>
-        <div className="materia state">Passou</div>
-        <div className="materia perdeu">Perdeu</div>
-        <div className="materia bloqueada">Bloqueada</div>
+        <div className="materia liberada doc">Liberada</div>
+        <div className="materia state doc">Passou</div>
+        <div className="materia perdeu doc">Perdeu</div>
+        <div className="materia bloqueada doc">Bloqueada</div>
       </div>
     </div>
   );

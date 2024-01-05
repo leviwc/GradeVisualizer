@@ -1,10 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import BottomSheet from "./bottomSheet";
 
 export default function Layout() {
   return (
-    <main className="layout">
-      <Outlet />
-    </main>
+    <div>
+      <main className="layout">
+        <Outlet />
+      </main>
+      <BottomSheet />
+    </div>
   );
 }

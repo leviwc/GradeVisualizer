@@ -3,7 +3,6 @@ import "./../App.css";
 import { useParams } from "react-router-dom";
 import Course from "./course";
 import { allUniversitiesMap } from "../data/allUniversities";
-import SearchBarWithBackButton from "./materiaSearchBar";
 
 const CoursePage = () => {
   const { universityId, courseId } = useParams();
@@ -15,7 +14,6 @@ const CoursePage = () => {
 
   return (
     <div>
-      <SearchBarWithBackButton />
       <Course
         semestres={semestres}
         setSemestres={setSemestres}

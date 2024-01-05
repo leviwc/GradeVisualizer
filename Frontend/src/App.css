@@ -9,6 +9,7 @@
   flex-direction: column;
   overflow: auto;
   background-color: #ffffff;
+  font-size: 17px;
 }
 
 .linha {
@@ -45,7 +46,7 @@
   color: #1a1a1a;
   /* font-weight: bold; */
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-  /* center */
+  min-width: 140px; /* Set your desired minimum width */
 }
 .materia.liberada {
   background-color: rgb(204, 245, 207);
@@ -62,6 +63,9 @@
 .materia.bloqueada {
   background-color: #e59291;
   color: #1a1a1a;
+}
+[class^="materia"][class$="doc"] {
+  height: auto;
 }
 .semestreTag {
   text-align: center;

@@ -3,14 +3,9 @@ import Semestre from "./semestre";
 import "./../App.css";
 import { GradeState } from "./materia";
 import { MateriaStatusLegend } from "./materiaLegend";
+import SearchBarWithBackButton from "./materiaSearchBar";
 
 const Course = ({ semestres, setSemestres, universityId, courseId }) => {
-  useEffect(() => {
-    // You can fetch initial data or perform other side effects here
-    // For example, fetching data from an API
-    // fetchData(universityId, courseId).then((data) => setSemestres(data));
-  }, [universityId, courseId]); // Add any dependencies for your useEffect
-
   const onBlocked = (event) => {
     setSemestres((prevSemestres) => {
       const semestresCopy = [...prevSemestres];
@@ -83,6 +78,10 @@ const Course = ({ semestres, setSemestres, universityId, courseId }) => {
 
   return (
     <div>
+      <SearchBarWithBackButton
+        universityId={universityId}
+        courseId={courseId}
+      />
       <div className="linha">
         {semestres.map((semestre) => (
           <Semestre

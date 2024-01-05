@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button, Input, Box } from "@mui/material";
+import { Link } from "react-router-dom";
 
-const MateriaSearchBar = () => {
+const MateriaSearchBar = ({ universityId, courseId }) => {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -18,27 +19,6 @@ const MateriaSearchBar = () => {
     }
   };
 
-  const handleForwardClick = () => {
-    const currentPathname = window.location.pathname;
-    const match = currentPathname.match(/\/([^/]+)\/([^/]+)\/$/);
-
-    console.log("Current Pathname:", currentPathname);
-    console.log("Match Result:", match);
-
-    if (match) {
-      const universityId = match[1];
-      const courseId = match[2];
-      const forwardUrl = `/${universityId}/${courseId}/${encodeURIComponent(
-        searchQuery
-      )}`;
-      navigate(forwardUrl);
-    } else {
-      console.error(
-        "Cannot determine the current course. Forward navigation aborted."
-      );
-    }
-  };
-
   return (
     <Box display="flex" alignItems="center" padding="10px" bgcolor="#f0f0f0">
       <Button
@@ -48,19 +28,24 @@ const MateriaSearchBar = () => {
       >
         Back
       </Button>
+      <div>{`/${universityId}/${courseId}/`}</div>
+
       <Input
         type="text"
-        placeholder="Search..."
+        placeholder="crie-ou-va-para-pagina-pessoal"
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
         style={{ flex: 1, padding: "5px" }}
       />
       <Button
-        onClick={handleForwardClick}
+        component={Link}
+        to={{
+          pathname: `/${universityId}/${courseId}/${searchQuery}`,
+        }}
         variant="contained"
         style={{ marginLeft: "10px" }}
       >
-        Search
+        Ir para pagina salva
       </Button>
     </Box>
   );
