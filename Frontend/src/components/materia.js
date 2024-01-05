@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import UppercaseToCamelCase from "./upperToCamel";
+import SearchBarWithBackButton from "./materiaSearchBar";
 
 export const GradeState = {
   NEUTRAL: "NEUTRAL",
@@ -14,7 +15,9 @@ class Materia extends Component {
     return (
       <div className={this.handleClassDiv()}>
         <div className="codigo">{this.props.materia.codigo}</div>
-        <UppercaseToCamelCase uppercaseText={this.props.materia.nome} />
+        <div className="materia_name">
+          <UppercaseToCamelCase uppercaseText={this.props.materia.nome} />
+        </div>
         <br />
         <input
           type="button"

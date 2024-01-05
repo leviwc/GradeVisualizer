@@ -8,7 +8,7 @@
   display: grid;
   flex-direction: column;
   overflow: auto;
-  background-color: #c0d9d9;
+  background-color: #ffffff;
 }
 
 .linha {
@@ -21,47 +21,69 @@
   width: 12%;
   height: auto;
   display: block;
-  background-color: #c0d9d9;
+}
+
+.materia_name {
+  height: 40px;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .materia {
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  border-radius: 5%;
   margin: 0 auto 10px auto;
-  background-color: #79cdcd;
-  color: #111111;
-  margin-left: 5px;
+  background-color: #e1e1e1;
+  margin-left: 9px;
   padding: 2px 0px 5px 5px;
-  border-style: solid;
-  border-color: #5f9f9f;
+  /* border-style: solid; */
+  /* border-color: #9d9d9d; */
   text-align: center;
+  height: 120px;
+  /* width: 140px; */
+  color: #1a1a1a;
+  /* font-weight: bold; */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  /* center */
 }
 .materia.liberada {
   background-color: rgb(204, 245, 207);
+  color: #1a1a1a;
 }
 .materia.perdeu {
   background-color: #e4605e;
+  color: #1a1a1a;
 }
 .materia.state {
   background-color: rgb(124, 207, 134);
+  color: #1a1a1a;
 }
 .materia.bloqueada {
   background-color: #e59291;
+  color: #1a1a1a;
 }
 .semestreTag {
   text-align: center;
-  background-color: #5f9f9f;
+  background-color: #ffffff;
+  color: #565656;
   margin: 0;
   margin-bottom: 2px;
   padding: 5px 5px 10px 0;
   font-weight: bold;
+  margin-bottom: 15px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 .botao {
   padding: 1px 3px;
   border-radius: 5px;
   border: none;
   margin-left: 3px;
-  border-style: solid;
-  border-width: 0.4px;
+  margin-top: 14px;
+  /* border-style: solid; */
+  /* border-width: 0.4px; */
+  font-size: 14px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 .botao.state {
   background-color: rgb(124, 207, 134);

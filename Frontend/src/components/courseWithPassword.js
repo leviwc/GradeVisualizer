@@ -66,7 +66,7 @@ const CourseWithPassword = () => {
         grade_states: dataObject,
       };
 
-      await axios.post("http://0.0.0.0:8080/gradeStates", body, {
+      await axios.post(`${process.env.REACT_APP_API_URL}gradeStates`, body, {
         headers: {
           "Content-Type": "application/json",
           // Add other headers as needed
@@ -81,7 +81,7 @@ const CourseWithPassword = () => {
 
   const fetchData = async () => {
     try {
-      const apiUrl = `http://0.0.0.0:8080/gradeStates?password=${password}&university=${universityId}&course=${courseId}`;
+      const apiUrl = `${process.env.REACT_APP_API_URL}gradeStates?password=${password}&university=${universityId}&course=${courseId}`;
 
       const response = await axios.get(apiUrl);
 
