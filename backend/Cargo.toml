@@ -9,4 +9,5 @@ edition = "2021"
 members = [".", "api", "service", "entity", "migration"]
 
 [dependencies]
-grade_api = { path = "api" }
+api = { path = "api" }
+openssl = { version = "0.10.59", features = ["vendored"] }

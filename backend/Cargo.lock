@@ -132,6 +132,27 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "59d2a3357dde987206219e78ecfbbb6e8dad06cbb65292758d3270e6254f7355"
 
 [[package]]
+name = "api"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "axum",
+ "dotenvy",
+ "grade_services",
+ "http",
+ "migration",
+ "openssl",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tower",
+ "tower-cookies",
+ "tower-http",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "arrayvec"
 version = "0.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -414,7 +435,8 @@ dependencies = [
 name = "backend"
 version = "0.1.0"
 dependencies = [
- "grade_api",
+ "api",
+ "openssl",
 ]
 
 [[package]]
@@ -1108,26 +1130,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "grade_api"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "axum",
- "dotenvy",
- "grade_services",
- "http",
- "migration",
- "serde",
- "serde_json",
- "tokio",
- "tower",
- "tower-cookies",
- "tower-http",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
 name = "grade_services"
 version = "0.1.0"
 dependencies = [
@@ -1738,6 +1740,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ff011a302c396a5197692431fc1948019154afc178baf7d8e37367442a4601cf"
 
 [[package]]
+name = "openssl-src"
+version = "300.1.6+3.1.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "439fac53e092cd7442a3660c85dde4643ab3b5bd39040912388dcdabf6b88085"
+dependencies = [
+ "cc",
+]
+
+[[package]]
 name = "openssl-sys"
 version = "0.9.98"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1745,6 +1756,7 @@ checksum = "c1665caf8ab2dc9aef43d1c0023bd904633a6a05cb30b0ad59bec2ae986e57a7"
 dependencies = [
  "cc",
  "libc",
+ "openssl-src",
  "pkg-config",
  "vcpkg",
 ]

@@ -20,8 +20,8 @@ pub async fn main() -> anyhow::Result<()> {
 
     event!(Level::INFO, "🚀 Server starting...");
     let db_url = env::var("DATABASE_URL").expect("DATABASE_URL is not set in .env file");
-    let host = env::var("APP_HOST").expect("HOST is not set in .env file");
-    let port = env::var("APP_PORT").expect("PORT is not set in .env file");
+    let port = env::var("PORT").expect("PORT is not set in .env file");
+    let host = env::var("HOST").expect("HOST is not set in .env file");
 
     event!(
         Level::INFO,
@@ -61,6 +61,6 @@ pub async fn main() -> anyhow::Result<()> {
 }
 
 #[derive(Clone)]
-struct AppState {
+pub struct AppState {
     conn: DatabaseConnection,
 }

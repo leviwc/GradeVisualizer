@@ -1,3 +1,3 @@
 fn main() {
-    grade_api::main().unwrap();
+    api::main().unwrap();
 }

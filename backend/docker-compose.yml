@@ -1,14 +1,11 @@
 version: "3.8"
-
 services:
-  postgres:
-    container_name: grade-pg
-    image: postgres:12-alpine
-    command: postgres -c 'max_connections=500'
-    environment:
-      POSTGRES_USER: grade
-      POSTGRES_PASSWORD: grade
-      POSTGRES_DB: grade
-      POSTGRES_HOST_AUTH_METHOD: trust
+  api:
+    image: backend/api
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - 5432:5432
+      - "50052:50052"

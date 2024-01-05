@@ -1,5 +1,5 @@
 [package]
-name = "grade_api"
+name = "api"
 version = "0.1.0"
 authors = ["Levi Weber Costa"]
 edition = "2021"
@@ -20,3 +20,4 @@ tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
 tracing = "0.1"
 migration = { path = "../migration" }
 http = "1"
+openssl = { version = "0.10.59", features = ["vendored"] }
