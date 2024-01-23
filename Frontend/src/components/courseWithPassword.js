@@ -102,7 +102,9 @@ const CourseWithPassword = () => {
   }, [postDataDebounced]);
 
   useEffect(() => {
-    postDataDebounced();
+    if (!loading) {
+      postDataDebounced();
+    }
   }, [semestres]); // This effect will run whenever semestres changes
 
   useEffect(() => {
