@@ -17,7 +17,7 @@ import { ciencias_biologicas } from "./ciencias-biologicas";
 import { ciencias_biologicas_noturno } from "./ciencias-biologicas-noturno";
 import { ciencias_contabeis } from "./ciencias-contabeis";
 import { ciencias_contabeis_noturno } from "./ciencias-contabeis_noturno";
-import { ciencias_da_computacao } from "./ciencias-da-computacao";
+import { ciencia_da_computacao } from "./ciencias-da-computacao";
 import { ciencias_economicas } from "./ciencias-economicas";
 import { ciencias_naturais } from "./ciencias-naturais";
 import { ciencias_sociais } from "./ciencias-sociais";
@@ -174,9 +174,9 @@ const ufbaCourses = [
     ciencias_contabeis
   ),
   new CourseType(
-    "ciencias_da_computacao",
+    "ciencia_da_computacao",
     "Ciência da Computação",
-    ciencias_da_computacao
+    ciencia_da_computacao
   ),
   new CourseType(
     "ciencias_economicas",

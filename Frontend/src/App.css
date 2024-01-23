@@ -10,6 +10,7 @@
   overflow: auto;
   background-color: #ffffff;
   font-size: 17px;
+  zoom: 80%;
 }
 
 .linha {
@@ -84,19 +85,28 @@
   border: none;
   margin-left: 3px;
   margin-top: 14px;
-  /* border-style: solid; */
-  /* border-width: 0.4px; */
   font-size: 14px;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
+
 .botao.state {
   background-color: rgb(124, 207, 134);
   border-color: green;
 }
+
 .botao.perdeu {
   background-color: #e05e5c;
   border-color: red;
 }
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .botao {
+    font-size: 12px; /* Adjust font size for smaller screens */
+    margin-top: 8px; /* Adjust margin-top for smaller screens */
+  }
+}
+
 .codigo {
   font-size: 10px;
   font-weight: bold;
